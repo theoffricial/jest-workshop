@@ -1,0 +1,24 @@
+{
+  "name": "jest-workshop",
+  "version": "1.0.0",
+  "description": "Workshop setup and examples for the whole JS/TS eco-system!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "jest",
+    "workshop",
+    "examples",
+    "javascript",
+    "typescript",
+    "esm",
+    "commonjs"
+  ],
+  "author": "unicop",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.5"
+  }
+}

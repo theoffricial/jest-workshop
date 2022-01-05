@@ -1,0 +1,22 @@
+{
+  "name": "@unicop/jest-workshop-javascript",
+  "version": "1.0.0",
+  "description": "Jest setup, examples and some edge cases.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "jest",
+    "javascript",
+    "jest-setup"
+  ],
+  "author": "unicop",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.5",
+    "mongodb": "^4.2.2",
+    "mongoose": "^6.1.5"
+  }
+}
