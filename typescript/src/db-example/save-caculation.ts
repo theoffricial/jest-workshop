@@ -1,14 +1,9 @@
-const mongoose = require("mongoose");
-const { workshopDbClose } = require("../shared/db-setup");
-const { sum } = require("../pure-logic-example/calculator");
-const { getConnectionModel } = require("../shared/model");
+import mongoose from "mongoose";
+import { workshopDbClose } from "../shared/db-setup";
+import { sum } from "../pure-logic-example/calculator";
+import { getConnectionModel } from "../shared/model";
 
-/**
- * 
- * @param {mongoose.Connect} connection 
- * @returns 
- */
-async function saveCalculation(connection, action, numA, numB) {
+export async function saveCalculation(connection: mongoose.Connection, action: (...args: any) => {}, numA: number, numB: number) {
     try {
         const { Calculation } = await getConnectionModel(connection);
 
@@ -32,6 +27,6 @@ async function saveCalculation(connection, action, numA, numB) {
 
 // saveCalculation();
 
-module.exports = {
-    saveCalculation,
-}
+// module.exports = {
+//     saveCalculation,
+// }

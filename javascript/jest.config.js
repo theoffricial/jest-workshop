@@ -14,7 +14,7 @@ module.exports = {
   // cacheDirectory: "/private/var/folders/_f/f4w5fnzs2tl_07hhng6cm9kr0000gn/T/jest_dx",
 
   // Automatically clear mock calls, instances and results before every test
-  clearMocks: true,
+  // clearMocks: true,
 
   // Indicates whether the coverage information should be collected while executing the test
   // collectCoverage: false,
@@ -26,9 +26,9 @@ module.exports = {
   // coverageDirectory: undefined,
 
   // An array of regexp pattern strings used to skip coverage collection
-  // coveragePathIgnorePatterns: [
-  //   "/node_modules/"
-  // ],
+  coveragePathIgnorePatterns: [
+    "/node_modules/"
+  ],
 
   // Indicates which provider should be used to instrument code for coverage
   coverageProvider: "v8",

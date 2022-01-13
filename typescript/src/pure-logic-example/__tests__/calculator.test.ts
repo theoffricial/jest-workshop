@@ -1,4 +1,4 @@
-const { divide, sum, throwIfNotANumber } = require("./calculator");
+import { divide, sum, throwIfNotANumber } from "../calculator";
 
 
 describe("calculator", () => {
