@@ -3,3 +3,5 @@
 /javascript/.vscode
 **/dist/**
 /mongo/mongodata/
+
+**/.DS_Store
