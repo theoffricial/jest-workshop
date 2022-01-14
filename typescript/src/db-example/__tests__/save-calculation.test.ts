@@ -2,7 +2,7 @@ import { getWorkshopConnection } from "../../shared/db-setup";
 import { saveCalculation } from "../save-caculation";
 import { createMock } from 'ts-jest-mock'
 import { sum } from "../../pure-logic-example/calculator";
-jest.setTimeout(30000);
+
 
 jest.mock("../../shared/db-setup")
 
