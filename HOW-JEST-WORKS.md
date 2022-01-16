@@ -1,5 +1,7 @@
 # How Jest is working behind the scenes
 
+TBD: Table of content
+
 I will do my best to explain these 3 topics:
 
 - jest global object
