@@ -28,4 +28,14 @@ describe("calculator", () => {
             expect(() => throwIfNotANumber("a")).toThrow();
         })
     })
+
+    it("should fail because 1 is not equal to 2", () => {
+        expect(1).toBe(2);
+    })
+
+    it("should fail because 3 is not equal to 4", someNamedFn)
 })
+
+function someNamedFn() {
+    expect(3).toBe(4);
+}
